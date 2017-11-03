@@ -32,7 +32,16 @@ if (isset($_GET['clear_session'])) {
 	<div class="container"> 
 
 		<div class="header clearfix">
-			<h1 class="text-muted text-center"><?php echo $title; ?></h1>
+	              
+		    <nav>
+	          <ul class="nav nav-pills float-right">            
+	          	<li class="nav-item">
+	              <a class="btn btn-outline-primary float-right" href="https://github.com/acloup/wordpress-plugins-manager"><i class="fa fa-github" aria-hidden="true"></i> View on GitHub</a>
+	            </li>
+	          </ul>
+	        </nav>
+			<h1 class="text-muted"><?php echo $title; ?></h1>
+				
 		</div>
 
 		<div class="alert alert-secondary" role="alert">
