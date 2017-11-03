@@ -28,7 +28,8 @@ It could be useful if, for some reason, your site is "broken" and you can't logi
   - Copy the value and save it somewhere !
   - Replace that value by : a:0:{}
   - Alternative / faster way : execute this query 
-  - UPDATE wp_options SET option_value = 'a:0:{}' WHERE option_name = 'active_plugins';
+  - ````UPDATE wp_options SET option_value = 'a:0:{}' WHERE option_name = 'active_plugins';````
+  
 -To enable the plugins again, replace the value by the one you saved
 
 ## Disable one plugin via database
