@@ -25,10 +25,10 @@ It could be useful if, for some reason, your site is "broken" and you can't logi
 ## Disable all plugins via database
 
 - Connect to your site database via your favorite database manager (ex : PhpMyAdmin)
-- In table wp_options :
-  - Find the active_plugins key
-  - Copy the value and save it somewhere !
-  - Replace that value by : a:0:{}
+- In table **wp_options** :
+  - Find the **active_plugins** key
+  - **Copy the value and save it somewhere !**
+  - Replace that value by : ````a:0:{}````
   - Alternative / faster way : execute this query 
   - ````UPDATE wp_options SET option_value = 'a:0:{}' WHERE option_name = 'active_plugins';````
   
