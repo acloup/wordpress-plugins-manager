@@ -4,7 +4,7 @@ This page displays differents ways to **disable / enable plugins on WordPress**,
 
 It could be useful if, for some reason, your site is "broken" and you can't login to disable a plugin via the admin panel.
 
-**tl;dr :** this page should answer **"How to disable one or all plugin(s) in WordPress?"**
+> **tl;dr :** this page should answer **"How to disable one or all plugin(s) in WordPress?"**
 
 ## Disable one plugin via FTP
 
