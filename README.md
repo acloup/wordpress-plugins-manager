@@ -11,14 +11,16 @@ It could be useful if, for some reason, your site is "broken" and you can't logi
 - Connect to your site directory and go to /wp-content/plugins directory
 - Find the directory used by your plugin and rename it. 
   - For example : /wp-content/plugins/my-plugin -> /wp-content/plugins/my-plugin-disabled
-- To enable the plugin again, rename the directory with its original name
+
+> To enable the plugin again, rename the directory with its original name
 
 ## Disable all plugins via FTP
 
 - Connect to your site directory and go to /wp-content/plugins directory
 - Rename every directories... 
   - For example : /wp-content/plugins/my-plugin -> /wp-content/plugins/my-plugin-disabled
-- To enable the plugins again, rename all the directories (...) with their original name
+
+> To enable the plugins again, rename all the directories (...) with their original name
 
 ## Disable all plugins via database
 
@@ -30,7 +32,7 @@ It could be useful if, for some reason, your site is "broken" and you can't logi
   - Alternative / faster way : execute this query 
   - ````UPDATE wp_options SET option_value = 'a:0:{}' WHERE option_name = 'active_plugins';````
   
--To enable the plugins again, replace the value by the one you saved
+> To enable the plugins again, replace the value by the one you saved
 
 ## Disable one plugin via database
 
